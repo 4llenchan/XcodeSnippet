@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lksk</string>
+	<string>@click</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pod 'KSongKit', :path =&gt; '../../KSongKit', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit']</string>
+	<string>- (void)&lt;#button#&gt;Clicked:(UIButton *)sender {
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>60A098E9-464C-41C7-A3EB-D3355CA828AC</string>
+	<string>939BB448-E9CF-4267-986D-872CC77C3468</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KSongKit-Local</string>
+	<string>button click action</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

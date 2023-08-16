@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pod 'KSongKit', :git =&gt; 'https://git.woa.com/karaoke_ios/KSongKit.git', :commit =&gt; '&lt;#desc#&gt;'</string>
+	<string>pod 'KSongKit', :git =&gt; 'https://git.woa.com/karaoke_ios/KSongKit.git', :commit =&gt; '&lt;#desc#&gt;', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit']</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B16AAA95-F2DD-4B7A-8D2E-99B12DA49ED5</string>
 	<key>IDECodeSnippetLanguage</key>

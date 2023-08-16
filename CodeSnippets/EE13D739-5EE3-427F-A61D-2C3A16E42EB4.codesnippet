@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lksk</string>
+	<string>rksk</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pod 'KSongKit', :path =&gt; '../../KSongKit', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit']</string>
+	<string>pod 'KSongKit', '&lt;#v#&gt;', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit']</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>60A098E9-464C-41C7-A3EB-D3355CA828AC</string>
+	<string>EE13D739-5EE3-427F-A61D-2C3A16E42EB4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Ruby</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KSongKit-Local</string>
+	<string>release ksongkit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
