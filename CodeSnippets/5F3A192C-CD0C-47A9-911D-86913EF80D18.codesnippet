@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@start</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>RG_SELF_WITH_NAME(&lt;#name#&gt;)
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    [self setupUI];
+}
+
+// MARK: UI
+
+- (void)setupUI {
+    UIButton *startButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [startButton setBackgroundColor:UIColor.systemBlueColor];
+    [startButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    [startButton setTitle:@"start" forState:UIControlStateNormal];
+    [startButton addTarget:self action:@selector(startButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:startButton];
+    [startButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.width.mas_equalTo(150);
+        make.height.mas_equalTo(60);
+    }];
+}
+
+// MARK: action
+
+- (void)startButtonClicked:(UIButton *)sender {
+    KS_WEAK_SELF(self);
+    [self asyncRunWithHUD:^{
+        CHECK_SELF_AND_RETURN();
+        [self startExecute];
+    }];
+}
+
+// MARK: function
+
+- (void)startExecute {
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5F3A192C-CD0C-47A9-911D-86913EF80D18</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Common start up</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

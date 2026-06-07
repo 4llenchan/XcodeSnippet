@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dksk</string>
+	<string>@doc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pod 'KSongKit', :git =&gt; 'https://git.woa.com/karaoke_ios/KSongKit.git', :commit =&gt; '&lt;#desc#&gt;', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit', 'AIDenoise']</string>
+	<string>NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+NSString *documentsDirectory = [paths firstObject];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B16AAA95-F2DD-4B7A-8D2E-99B12DA49ED5</string>
+	<string>FB579CD7-9BB6-4F17-B378-61C6CCA4D50F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KSongKit-Dev</string>
+	<string>Documents directory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dksk</string>
+	<string>todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pod 'KSongKit', :git =&gt; 'https://git.woa.com/karaoke_ios/KSongKit.git', :commit =&gt; '&lt;#desc#&gt;', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit', 'AIDenoise']</string>
+	<string>// TODO: (allenacchen) &lt;#desc#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B16AAA95-F2DD-4B7A-8D2E-99B12DA49ED5</string>
+	<string>ECC4DE1C-F111-4C26-936B-3AC801C29E14</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KSongKit-Dev</string>
+	<string>TODO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

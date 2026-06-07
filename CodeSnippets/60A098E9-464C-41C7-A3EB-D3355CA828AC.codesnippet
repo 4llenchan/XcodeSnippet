@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pod 'KSongKit', :path =&gt; '../../KSongKit', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit']</string>
+	<string>pod 'KSongKit', :path =&gt; '../../KSongKit', :subspecs =&gt; ['TFLite', 'Core', 'TME3AKit', 'AIDenoise']</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>60A098E9-464C-41C7-A3EB-D3355CA828AC</string>
 	<key>IDECodeSnippetLanguage</key>
